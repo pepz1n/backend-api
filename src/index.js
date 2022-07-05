@@ -4,17 +4,11 @@ const express = require('express');
 //criar constante que representa a nossa aplicação como um todo
 // vamos chamar ela de 'app' e ela recebe a invocação do express
 const app = express();
-const db = require('./config/db');
 
-//criação de rota que vai listar todos os cadastros
-app.get('/pedreiros', async (req, res, Next) => {
-    const sql = 'select nome, cpf, casado from construtor';
-    const pedreiros = await db.query(sql);
-    res.status(200).send({
-        Quantidade: pedreiros.rowCount,
-        Dados: [pedreiros.rows]
-    })
-});
+app.use(express.json())
+
+//middleware
+require('./routes')(app);
 
 
 

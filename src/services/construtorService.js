@@ -1,4 +1,3 @@
-const { ClientBase } = require('pg');
 const db = require('../config/db')
 
 //consultar cliente
@@ -9,7 +8,7 @@ const getAllConstrutores = async () => {
 }
 
 
-//atualizar o cliente
+//consultar por id
 const getConstrutorById = async (params) =>{
     let sql = `select * from construtor where id = $1`;
     let construtor = await db.query(sql, [params.id]);
@@ -35,6 +34,20 @@ const postConstrutor = async(params) =>{
 
 
 // deletar um cliente
+const deleteConstrutor = async (params) =>{
+    let sql ='delete from construtor where id = $1';
+    let delet = await db.query(sql, [params.id])
+    return delet.rowCount == 1;
+}
+
+//update um cliente
+const patchConstrutor = async (params) =>{
+    let fields = [];
+    Object.keys(params).forEach(campo => campo !== 'id' && fields.push(`${campo} = '${params[campo]}'`));
+    fields = fields.join(', ');
+    const sql = `update construtor set ${fields} where id = ${params.id}`;
+    await db.query(sql);
+}
 
 
 
@@ -43,3 +56,5 @@ const postConstrutor = async(params) =>{
 module.exports.getAllConstrutores = getAllConstrutores;
 module.exports.getConstrutorById = getConstrutorById;
 module.exports.postConstrutor = postConstrutor;
+module.exports.deleteConstrutor = deleteConstrutor;
+module.exports.patchConstrutor = patchConstrutor;

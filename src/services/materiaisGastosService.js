@@ -15,18 +15,55 @@ const getmateriaisGastosById = async (params) =>{
     return materiaisGastos.rows;
 }
 
-//inserir novos clientes
-
-const postmateriaisGastos = async(params) =>{
-    let {quantidade_gasto, id_materiais, id_construtor, } = params;
+//inserir novo cadastro de material gasto
+const persistirMateriaisGastos = async (params) =>{
+    //função para pegar o estoque atual e reduir pelo gasto
+    const updateEstoque = async (quantidade,id_material) =>{
+        let sql = `select 
+                    quantidade_estoque 
+                   from materiais 
+                   where id = $1
+                   `;
+        let estoqueAtual = await db.query(sql,[id_material])
+        estoqueAtual = estoqueAtual.rows[0].quantidade_estoque;
+        let estoqueDepoisUso = estoqueAtual - quantidade;
+        if(estoqueDepoisUso>=0){
+            return estoqueDepoisUso;
+        }else{
+            return 0;
+        }
+    }
+    //INSERT DOS MATERIAIS GASTOS NO 'MATERIAIS_GASTOS'
+    let {quantidade_gasto,id_materiais, id_construtor} = params;
+    let estoqueNovo = await updateEstoque(quantidade_gasto,id_materiais);
     let sql = `
         insert into materiais_gastos(
             quantidade_gasto,
             id_materiais,
-            id_construtor,
-        ) values ($1, $2, $3) returning id`;
-    let insert = await db.query(sql, [quantidade_gasto, id_materiais, id_construtor])
-    return insert.rows[0];
+            id_construtor
+        ) values ($1, $2, $3)`;
+    await db.query(sql, [quantidade_gasto, id_materiais, id_construtor]);
+
+    //select do nome do construtor com o id 'id_construtor'
+    let sql3 = `select
+                nome
+                from construtor
+                where id= $1`
+    let nomeConstrutor = await db.query (sql3, [id_construtor])
+    nomeConstrutor = nomeConstrutor.rows[0].nome
+
+    //update da tabela materiais com o valor novo
+    let sql2 = `update materiais set 
+                    quantidade_estoque = $1 
+                where id = $2 returning nome, quantidade_estoque`
+    let insert = await db.query (sql2, [estoqueNovo, id_materiais])
+    //return com a mensagem
+    return  {
+        nome_construtor: nomeConstrutor,
+        id_construtor,
+        quantidade_gasto,
+        materiais: insert.rows[0]
+    };
 }
 
 
@@ -54,6 +91,6 @@ const patchmateriaisGastos = async (params) =>{
 //exportar
 module.exports.getAllmateriaisGastos = getAllmateriaisGastos;
 module.exports.getmateriaisGastosById = getmateriaisGastosById;
-module.exports.postmateriaisGastos = postmateriaisGastos;
+module.exports.postmateriaisGastos = persistirMateriaisGastos;
 module.exports.deletemateriaisGastos = deletemateriaisGastos;
 module.exports.patchmateriaisGastos = patchmateriaisGastos;

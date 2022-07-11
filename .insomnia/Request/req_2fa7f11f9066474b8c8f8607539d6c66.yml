@@ -1,0 +1,21 @@
+_id: req_2fa7f11f9066474b8c8f8607539d6c66
+type: Request
+parentId: fld_bf0f8e7691c44153bf24a51cca28a111
+modified: 1657310083806
+created: 1657310083806
+url: http://localhost:3000/construtor/3http://localhost:3000/disciplina/1
+name: get id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657304596343
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

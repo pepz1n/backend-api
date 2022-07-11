@@ -1,0 +1,21 @@
+_id: req_e105f316de4848088810124ac8d00e14
+type: Request
+parentId: fld_64f5a8194beb446a849ba79c4bea96dc
+modified: 1657308497072
+created: 1657304598230
+url: http://localhost:3000/alunos/2
+name: delete alunos
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657304598230
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

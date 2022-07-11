@@ -1,0 +1,30 @@
+_id: req_d81f75d55b7a4c70a44cd6c06f0baeca
+type: Request
+parentId: fld_cf6f88cbb68347daa384de1ee7684592
+modified: 1657131137647
+created: 1657131093099
+url: http://localhost:3000/materiais-comprados
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"id": 1,
+    		"valor_compra": "1"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_82c2b0d1e81046e2bb7bcc4fec555702
+authentication: {}
+metaSortKey: -1657131093099
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

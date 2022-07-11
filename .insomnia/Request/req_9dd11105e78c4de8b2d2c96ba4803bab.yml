@@ -1,0 +1,30 @@
+_id: req_9dd11105e78c4de8b2d2c96ba4803bab
+type: Request
+parentId: fld_64f5a8194beb446a849ba79c4bea96dc
+modified: 1657562377058
+created: 1657304447880
+url: http://localhost:3000/alunos
+name: post alunos
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"matricula": 828252,
+    		"id_pessoa": 5
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_da28dc7873f04cfeacb63cb3d777a2b6
+authentication: {}
+metaSortKey: -1657304311632
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_b7d2b2a8145c4c168fc126c1d65e4835
+type: Request
+parentId: fld_031966fbde714a9e8ecb1ebc5821c792
+modified: 1657309646241
+created: 1657309614971
+url: http://localhost:3000/disciplina
+name: get disciplina
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657304311682
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

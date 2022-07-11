@@ -1,0 +1,30 @@
+_id: req_82dc7c19fdaf46c6a4df273dd4f7c0ef
+type: Request
+parentId: fld_8afb447638bc49fd8450c6c868337d3e
+modified: 1657127897203
+created: 1657056291795
+url: http://localhost:3000/construtor
+name: atalização
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"id": 3,
+    		"nome": "fernando tosini"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_512e1eb2a38f4bed990b4f26ed24a266
+authentication: {}
+metaSortKey: -1657056291795
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_e309ef81749d41c4ae4a2fa5624dd65a
+type: Request
+parentId: fld_59ef47f530e64619bde3a898738771eb
+modified: 1657130090705
+created: 1657129147410
+url: http://localhost:3000/fornecedor
+name: cadastro
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"nome": "Pepz1nCrck",
+    		"cnpj": "21.928.869/1001-70",
+    		"inscricao_estudal": "232.095.276.277",
+    		"uf": "SC",
+    		"bairro": "Ari Lunardi",
+    		"rua": "Ricardo Panizzi",
+    		"numero": 755,
+    		"cidade": "Xaxim "
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c76ab9ac32ad449ab8331a77f7363360
+authentication: {}
+metaSortKey: -1657129147410
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

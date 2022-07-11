@@ -1,0 +1,32 @@
+_id: req_1735995d276c48f8aad3b1c10e475adb
+type: Request
+parentId: fld_5862bfaba7dd4b40b1c01be0ff39c873
+modified: 1657225804018
+created: 1657130080402
+url: http://localhost:3000/materiais
+name: cadastro
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"unidade_medida": "caixa",
+    		"nome": "cigarro",
+    		"quantidade_estoque": 10,
+    		"tipo_material": "mortal"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a046fb97d19a4696bed59152f18b4f63
+authentication: {}
+metaSortKey: -1657130080402
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

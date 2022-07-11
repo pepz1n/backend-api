@@ -1,0 +1,21 @@
+_id: req_094463aee8494cc49d104e4591ee3ed3
+type: Request
+parentId: fld_64f5a8194beb446a849ba79c4bea96dc
+modified: 1657304582819
+created: 1657304311682
+url: http://localhost:3000/alunos
+name: get alunos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657304311682
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

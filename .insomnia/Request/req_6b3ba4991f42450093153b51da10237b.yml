@@ -1,0 +1,30 @@
+_id: req_6b3ba4991f42450093153b51da10237b
+type: Request
+parentId: fld_59ef47f530e64619bde3a898738771eb
+modified: 1657129419767
+created: 1657129383912
+url: http://localhost:3000/fornecedor
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"id": 3,
+    		"nome": "PPZ Enterprise"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dec36e496d3a4a1db21969e51a6e248d
+authentication: {}
+metaSortKey: -1657129383912
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

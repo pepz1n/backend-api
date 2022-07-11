@@ -1,0 +1,21 @@
+_id: req_0ee0292118be4759a0f24f65fad8b965
+type: Request
+parentId: fld_bf0f8e7691c44153bf24a51cca28a111
+modified: 1657310759077
+created: 1657310083797
+url: http://localhost:3000/notas
+name: get notas
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657304311682
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_890b248c8b8846fe87d4e45ed02e04f7
+type: Request
+parentId: fld_7124d68bcf714eb78d35be5c69e0d589
+modified: 1657308995890
+created: 1657308995890
+url: http://localhost:3000/alunos/1
+name: get id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657304596343
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

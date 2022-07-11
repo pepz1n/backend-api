@@ -1,0 +1,26 @@
+_id: req_ceb355f9bdc04c26b500532638a7681e
+type: Request
+parentId: fld_57d83da55b4b4eb38cf0f98c3aeb154e
+modified: 1657215137452
+created: 1657131652641
+url: http://localhost:3000/materiais-gastos/12
+name: delete_por_id
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_09c5b315a27a4515a578cad635f2559b
+authentication: {}
+metaSortKey: -1657131652641
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

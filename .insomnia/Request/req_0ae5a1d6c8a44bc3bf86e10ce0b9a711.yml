@@ -1,0 +1,30 @@
+_id: req_0ae5a1d6c8a44bc3bf86e10ce0b9a711
+type: Request
+parentId: fld_57d83da55b4b4eb38cf0f98c3aeb154e
+modified: 1657227810527
+created: 1657131661118
+url: http://localhost:3000/materiais-gastos
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"id": 2,
+    		"quantidade_gasto": 30
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9221ebd7cd4b4e5cbd42b76ad51b1771
+authentication: {}
+metaSortKey: -1657131656879.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

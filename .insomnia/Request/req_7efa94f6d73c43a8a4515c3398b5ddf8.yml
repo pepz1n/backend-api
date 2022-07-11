@@ -1,0 +1,34 @@
+_id: req_7efa94f6d73c43a8a4515c3398b5ddf8
+type: Request
+parentId: fld_8afb447638bc49fd8450c6c868337d3e
+modified: 1657127409494
+created: 1657049831612
+url: http://localhost:3000/construtor/
+name: cadastro
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"nome": "arnaldo",
+    		"nascimento": "1971-05-18T03:00:00.000Z",
+    		"telefone": "(79) 3352-1146",
+    		"cpf": "429.293.552-21",
+    		"casado": true,
+    		"id_empresa_construtor": 3
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_edf604b1b5324aa5b3b719e06f2d8573
+authentication: {}
+metaSortKey: -1657049831612
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

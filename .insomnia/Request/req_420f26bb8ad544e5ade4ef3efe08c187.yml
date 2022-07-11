@@ -1,0 +1,30 @@
+_id: req_420f26bb8ad544e5ade4ef3efe08c187
+type: Request
+parentId: fld_8ed8c086e88946bb9ffedd6efcbb6f31
+modified: 1657130992222
+created: 1657127879195
+url: http://localhost:3000/empresa-construtor
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"id": 3,
+    		"nome": "PPZ Enterprise"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d3d7f693d6e14e559898f66a02ac6621
+authentication: {}
+metaSortKey: -1657127879195
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

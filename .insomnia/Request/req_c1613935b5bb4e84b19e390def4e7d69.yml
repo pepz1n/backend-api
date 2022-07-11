@@ -1,0 +1,21 @@
+_id: req_c1613935b5bb4e84b19e390def4e7d69
+type: Request
+parentId: fld_031966fbde714a9e8ecb1ebc5821c792
+modified: 1657309666965
+created: 1657309615045
+url: http://localhost:3000/disciplina/1
+name: delete disciplina
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657304598230
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

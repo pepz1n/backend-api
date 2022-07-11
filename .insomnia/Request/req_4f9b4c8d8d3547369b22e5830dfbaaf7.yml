@@ -1,0 +1,21 @@
+_id: req_4f9b4c8d8d3547369b22e5830dfbaaf7
+type: Request
+parentId: fld_0b8958ba087b4cc0b2866a7c67798b4d
+modified: 1657307913018
+created: 1657307678279
+url: http://localhost:3000/pessoas
+name: get pessoas
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657304311682
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_09947281a83f45658b012900323dc8b7
+type: Request
+parentId: fld_2cac155616e44fb4845c58300580c4a0
+modified: 1657572006871
+created: 1657312529353
+url: http://localhost:3000/media
+name: media
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"matricula_aluno": 898252,
+    	"id_disciplina": 3,
+    	"data_inicio": "2022-01-08",
+    	"data_fim": "2022-12-30"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9108a2f6c14442a5931e3428e120cc73
+authentication: {}
+metaSortKey: -1657312529353
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

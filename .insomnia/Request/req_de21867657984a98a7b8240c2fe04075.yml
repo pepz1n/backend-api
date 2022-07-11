@@ -1,0 +1,33 @@
+_id: req_de21867657984a98a7b8240c2fe04075
+type: Request
+parentId: fld_bf0f8e7691c44153bf24a51cca28a111
+modified: 1657562398881
+created: 1657310083803
+url: http://localhost:3000/notas
+name: post notas
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"nota": 6.10,
+    		"peso": 10,
+    		"id_disciplina": 3 ,
+    		"id_aluno": 5,
+    		"observacao": "Nota para a materias de forget do trabalho A1"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_da28dc7873f04cfeacb63cb3d777a2b6
+authentication: {}
+metaSortKey: -1657304311632
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

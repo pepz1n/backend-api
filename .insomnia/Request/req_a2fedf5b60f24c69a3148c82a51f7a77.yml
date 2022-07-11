@@ -1,0 +1,31 @@
+_id: req_a2fedf5b60f24c69a3148c82a51f7a77
+type: Request
+parentId: fld_2cac155616e44fb4845c58300580c4a0
+modified: 1657572020477
+created: 1657558318605
+url: http://localhost:3000/media-todos
+name: media todos
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_disciplina": 3,
+    	"data_inicio": "2022-01-08",
+    	"data_fim": "2022-12-30"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e5f720187f6546e69b812b6169ffa1b8
+authentication: {}
+metaSortKey: -1657558318605
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

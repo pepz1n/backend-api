@@ -1,0 +1,36 @@
+_id: req_3a3e6dd8a16a461d8d3b7c4c53d851f7
+type: Request
+parentId: fld_8ed8c086e88946bb9ffedd6efcbb6f31
+modified: 1657131000249
+created: 1657126955440
+url: http://localhost:3000/empresa-construtor
+name: cadastro
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"nome": "pepz1ncrack",
+    		"cnpj": "38.020.619/0001-45",
+    		"telefone": "(48) 2920-5542",
+    		"uf": "SC",
+    		"bairro": "Ari lunardi",
+    		"rua": "Ricardo panizzi",
+    		"numero": 755,
+    		"cidade": "Xaxim"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d17f8303b0f24e39bbfa3d9425f60bef
+authentication: {}
+metaSortKey: -1657126955440
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

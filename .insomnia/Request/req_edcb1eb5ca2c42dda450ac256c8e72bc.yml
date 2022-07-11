@@ -1,0 +1,31 @@
+_id: req_edcb1eb5ca2c42dda450ac256c8e72bc
+type: Request
+parentId: fld_57d83da55b4b4eb38cf0f98c3aeb154e
+modified: 1657304275974
+created: 1657131644710
+url: http://localhost:3000/materiais-gastos
+name: cadastro
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"quantidade_gasto": 15502,
+    		"id_materiais": 2,
+    		"id_construtor": 2
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_70bfe7f066f14ae38fd3c18da0d8305d
+authentication: {}
+metaSortKey: -1657131644710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

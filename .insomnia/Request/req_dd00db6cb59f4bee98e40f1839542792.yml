@@ -1,0 +1,30 @@
+_id: req_dd00db6cb59f4bee98e40f1839542792
+type: Request
+parentId: fld_7124d68bcf714eb78d35be5c69e0d589
+modified: 1657310252003
+created: 1657308995887
+url: http://localhost:3000/professores
+name: post professor
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"matricula": 89825,
+    		"id_pessoa": 3
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_da28dc7873f04cfeacb63cb3d777a2b6
+authentication: {}
+metaSortKey: -1657304311632
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

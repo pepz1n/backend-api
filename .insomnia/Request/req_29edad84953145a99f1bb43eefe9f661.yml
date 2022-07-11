@@ -1,0 +1,21 @@
+_id: req_29edad84953145a99f1bb43eefe9f661
+type: Request
+parentId: fld_bf0f8e7691c44153bf24a51cca28a111
+modified: 1657310097617
+created: 1657310083809
+url: http://localhost:3000/disciplina/1
+name: delete notas
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657304598230
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

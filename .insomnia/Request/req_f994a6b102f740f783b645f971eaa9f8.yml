@@ -1,0 +1,21 @@
+_id: req_f994a6b102f740f783b645f971eaa9f8
+type: Request
+parentId: fld_7124d68bcf714eb78d35be5c69e0d589
+modified: 1657309161713
+created: 1657308995894
+url: http://localhost:3000/professores/1
+name: delete professor
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657304598230
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

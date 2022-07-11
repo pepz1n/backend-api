@@ -1,0 +1,21 @@
+_id: req_1ae4a879029f43f6a1a474816501cc06
+type: Request
+parentId: fld_7124d68bcf714eb78d35be5c69e0d589
+modified: 1657309092287
+created: 1657308995883
+url: http://localhost:3000/professores
+name: get professor
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657304311682
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

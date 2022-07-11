@@ -1,0 +1,33 @@
+_id: req_cd279141d28b4a88922c48aa15243823
+type: Request
+parentId: fld_cf6f88cbb68347daa384de1ee7684592
+modified: 1657304523913
+created: 1657130903375
+url: http://localhost:3000/materiais-comprados
+name: cadastro
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		
+    		"valor_compra": "0.12",
+    		"id_fornecedor": 2,
+    		"id_materiais": 1,
+    		"quantidade": 1000
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f545e5de8d1f456499cd95f33b927f51
+authentication: {}
+metaSortKey: -1657130903375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

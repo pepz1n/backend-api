@@ -1,0 +1,30 @@
+_id: req_0f5f19e7855440478d98db5f98507445
+type: Request
+parentId: fld_031966fbde714a9e8ecb1ebc5821c792
+modified: 1657310415033
+created: 1657309615026
+url: http://localhost:3000/disciplina
+name: post disciplina
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"descricao": "Professor de forget",
+    		"id_professor": 2
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_da28dc7873f04cfeacb63cb3d777a2b6
+authentication: {}
+metaSortKey: -1657304311632
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_a3ebbf6b97ca43b19a8f71424ad74da4
+type: Request
+parentId: fld_5862bfaba7dd4b40b1c01be0ff39c873
+modified: 1657130213565
+created: 1657130175977
+url: http://localhost:3000/materiais
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"id": 7,
+    		"quantidade_estoque": 10
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1d256912ff5e4415ae29bcea686842e4
+authentication: {}
+metaSortKey: -1657130175977
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
